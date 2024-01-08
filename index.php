@@ -128,8 +128,8 @@ if (isset($_GET['action'])) {
             break;
     }
 } else {
-    // $homeController = new HomeController();
-    // $homeController->index();
-    $adminController = new adminController();
-    $adminController->index();
+    $homeController = new HomeController();
+    $homeController->index();
+    // $adminController = new adminController();
+    // $adminController->index();
 }

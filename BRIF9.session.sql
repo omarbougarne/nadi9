@@ -218,16 +218,16 @@ VALUES (3, 4, '180 km', '2:15:00'),
 -- Inezgane to Casablanca
 -- Insert companies
 INSERT INTO Company (companyName, companyImage)
-VALUES ('CTM', "public/imgs/ctm.jpg"),
-    ('TajVoyage', "public/imgs/taj.jpg"),
-    ('Bismi Allah Salama', "public/imgs/bismilah.jpg"),
-    ('SAT First', "public/imgs/SAT_First.jpg"),
-    ('Trans Ghazala', "public/imgs/ghazala.jpg"),
-    ('Sotram', 'public/imgs/sotram.jpg'),
-    ('Bab Allah', 'public/imgs/BabAllah.jpg'),
-    ('GloBus Trans', 'public/imgs/GloBus.jpg'),
-    ('Supratours', 'public/imgs/Supratours.jpg'),
-    ('Jana Viajes', 'public/imgs/JanaViajes.jpg');
+VALUES ('CTM', "imgs/ctm.jpg"),
+    ('TajVoyage', "imgs/taj.jpg"),
+    ('Bismi Allah Salama', "imgs/bismilah.jpg"),
+    ('SAT First', "imgs/SAT_First.jpg"),
+    ('Trans Ghazala', "imgs/ghazala.jpg"),
+    ('Sotram', 'imgs/sotram.jpg'),
+    ('Bab Allah', 'imgs/BabAllah.jpg'),
+    ('GloBus Trans', 'imgs/GloBus.jpg'),
+    ('Supratours', 'imgs/Supratours.jpg'),
+    ('Jana Viajes', 'imgs/JanaViajes.jpg');
 -- Insert data into the Bus table for buses of the new companies
 INSERT INTO Bus (
         busID,
